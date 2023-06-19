@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Github",
+    "src": "../../../assets/github.svg",
+    "alt": "Teste",
+    "descricao": "Willian Stephano"
+  },
+  {
+    "nome": "Linkedin",
+    "src": "../../../assets/linkedin.svg",
+    "alt": "Teste",
+    "descricao": "Willian-Stephano"
+  },
+  {
+    "nome": "Telefone",
+    "src": "../../../assets/linkedin.svg",
+    "alt": "Teste",
+    "descricao": "(11) 945797284"
+  },
+  {
+    "nome": "E-mail",
+    "src": "../../../assets/linkedin.svg",
+    "alt": "Teste",
+    "descricao": "will.stephano@gmail.com"
+  }
+]

@@ -9,15 +9,26 @@ import { IntroComponent } from './componentes/intro/intro.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
 import { SobreComponent } from './componentes/sobre/sobre.component';
+import { ContatosComponent } from './componentes/contatos/contatos.component';
+import { MatCardModule } from '@angular/material/card';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [AppComponent, CabecalhoComponent, IntroComponent, SobreComponent],
+  declarations: [
+    AppComponent,
+    CabecalhoComponent,
+    IntroComponent,
+    SobreComponent,
+    ContatosComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatGridListModule,
     MatButtonModule,
+    MatCardModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

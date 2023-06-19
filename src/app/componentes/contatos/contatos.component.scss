@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  gap: 50px;
+
+  mat-card {
+    display: flex;
+    align-items: center;
+    padding: 1% 2%;
+
+    &:hover {
+      transition: 250ms;
+      transform: scale(101%);
+      cursor: pointer;
+    }
+  }
+  img {
+    width: 30px;
+  }
+}

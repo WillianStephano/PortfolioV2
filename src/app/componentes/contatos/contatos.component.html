@@ -1,0 +1,9 @@
+<section  >
+  <div class="container">
+    <mat-card *ngFor="let contato of colecaoContatos | async">
+      <img [src]="contato.src" [alt]="contato.alt" />
+      <p>{{ contato.nome }}</p>
+      <p>{{ contato.descricao }}</p>
+    </mat-card>
+  </div>
+</section>
