@@ -1,0 +1,30 @@
+mat-grid-list {
+  margin-top: 5%;
+
+  .info {
+    .container {
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        font-size: 1.8rem;
+        line-height: 0.5rem;
+      }
+
+      .row-btn {
+        display: flex;
+        gap: 5%;
+
+        button {
+          padding: 0 12px 0 12px;
+        }
+      }
+    }
+  }
+
+  .ilustracao {
+    img {
+      width: 80%;
+    }
+  }
+}
