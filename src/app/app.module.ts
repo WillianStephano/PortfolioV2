@@ -8,9 +8,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { IntroComponent } from './componentes/intro/intro.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
+import { SobreComponent } from './componentes/sobre/sobre.component';
 
 @NgModule({
-  declarations: [AppComponent, CabecalhoComponent, IntroComponent],
+  declarations: [AppComponent, CabecalhoComponent, IntroComponent, SobreComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
