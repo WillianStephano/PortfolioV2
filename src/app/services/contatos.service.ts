@@ -8,13 +8,12 @@ import { tap } from 'rxjs';
   providedIn: 'root',
 })
 export class ContatosService {
-  private readonly API = '../../assets/';
+  private readonly API = '../../assets/dados/';
 
   constructor(private http: HttpClient) {}
 
   listaContatos() {
-    return this.http
-      .get<Contato[]>(this.API + 'dados.json')
-      .pipe(tap((contato) => console.log(contato)));
+    return this.http.get<Contato[]>(this.API + 'contatos.json');
+    //.pipe(tap((contato) => console.log(contato)));
   }
 }

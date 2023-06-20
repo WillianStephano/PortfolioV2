@@ -13,13 +13,13 @@
   },
   {
     "nome": "Telefone",
-    "src": "../../../assets/linkedin.svg",
+    "src": "../../../assets/phone.svg",
     "alt": "Teste",
     "descricao": "(11) 945797284"
   },
   {
     "nome": "E-mail",
-    "src": "../../../assets/linkedin.svg",
+    "src": "../../../assets/mail.svg",
     "alt": "Teste",
     "descricao": "will.stephano@gmail.com"
   }
