@@ -1,0 +1,56 @@
+[
+  {
+    "nome": "BoraTrocar",
+    "src": "../../../assets/previa-img/previa-boratrocar.png",
+    "alt": "Teste",
+    "descricao": "Angular, TypeSctipt, Angular Material e API Spring Boot."
+  },
+  {
+    "nome": "Países",
+    "src": "../../../assets/previa-img/previa-paises.PNG",
+    "alt": "Teste",
+    "descricao": "HTML, CSS, JS e consumo de API."
+  },
+  {
+    "nome": "Adote um amigo",
+    "src": "../../../assets/previa-img/previa-adote.png",
+    "alt": "Teste",
+    "descricao": "HTML, CSS, JS."
+  },
+  {
+    "nome": "To do List",
+    "src": "../../../assets/previa-img/previa-todolist.PNG",
+    "alt": "Teste",
+    "descricao": "HTML, CSS, JS."
+  },
+  {
+    "nome": "Mapa do Brasil",
+    "src": "../../../assets/previa-img/previa-mapadobr.PNG",
+    "alt": "Teste",
+    "descricao": "HTML, CSS, JS e consumo de API."
+  },
+  {
+    "nome": "Blues Bar",
+    "src": "../../../assets/previa-img/previa-bluesbar.png",
+    "alt": "Teste",
+    "descricao": "HTML, CSS, JS."
+  },
+  {
+    "nome": "NetInter",
+    "src": "../../../assets/previa-img/previa-netinter.png",
+    "alt": "Teste",
+    "descricao": "HTML e CSS."
+  },
+  {
+    "nome": "Seu IMC",
+    "src": "../../../assets/previa-img/previa-seupeso.png",
+    "alt": "Teste",
+    "descricao": "HTML, CSS, JS."
+  },
+  {
+    "nome": "RecodePro Clone",
+    "src": "../../../assets/previa-img/previa-recode.png",
+    "alt": "Teste",
+    "descricao": "HTML, CSS, JS."
+  }
+]

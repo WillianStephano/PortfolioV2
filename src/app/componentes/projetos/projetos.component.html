@@ -1,0 +1,10 @@
+<section>
+  <h2>Projetos</h2>
+  <div class="container">
+    <mat-card *ngFor="let projeto of colecaoDeProjetos | async">
+      <img [src]="projeto.src" alt="" />
+      <mat-card-title>{{ projeto.nome }}</mat-card-title>
+      <p>Tecnologias: {{ projeto.descricao }}</p>
+    </mat-card>
+  </div>
+</section>

@@ -12,6 +12,7 @@ import { SobreComponent } from './componentes/sobre/sobre.component';
 import { ContatosComponent } from './componentes/contatos/contatos.component';
 import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
+import { ProjetosComponent } from './componentes/projetos/projetos.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
     IntroComponent,
     SobreComponent,
     ContatosComponent,
+    ProjetosComponent,
   ],
   imports: [
     BrowserModule,

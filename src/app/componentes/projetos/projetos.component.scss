@@ -1,0 +1,35 @@
+section {
+  text-align: center;
+  width: 90%;
+  margin: 10% auto;
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+
+    mat-card {
+      width: 23%;
+      padding: 2%;
+      box-sizing: border-box;
+
+      mat-card-title{
+        font-size: 0.95rem;
+      }
+
+      img {
+        max-width: 240px;
+      }
+
+      p{
+        text-align: left;
+        color: #0e0e0e;
+      }
+    }
+  }
+}
