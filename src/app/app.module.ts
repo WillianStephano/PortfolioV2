@@ -3,16 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { IntroComponent } from './componentes/intro/intro.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatListModule } from '@angular/material/list';
+
+import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
+import { IntroComponent } from './componentes/intro/intro.component';
 import { SobreComponent } from './componentes/sobre/sobre.component';
 import { ContatosComponent } from './componentes/contatos/contatos.component';
-import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 import { ProjetosComponent } from './componentes/projetos/projetos.component';
+import { HistoricoAcademicoComponent } from './componentes/historico-academico/historico-academico.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,7 @@ import { ProjetosComponent } from './componentes/projetos/projetos.component';
     SobreComponent,
     ContatosComponent,
     ProjetosComponent,
+    HistoricoAcademicoComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,6 +35,7 @@ import { ProjetosComponent } from './componentes/projetos/projetos.component';
     MatButtonModule,
     MatCardModule,
     HttpClientModule,
+    MatListModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

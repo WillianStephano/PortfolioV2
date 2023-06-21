@@ -1,0 +1,24 @@
+[
+  {
+    "cursosConcluidos": [
+      {
+        "nome": "Linkedin - HTML Básico",
+        "link": "www.google.com"
+      },
+      {
+        "nome": "Alura JavaScript",
+        "link": "www.google.com"
+      }
+    ],
+    "cursosEmAndamento": [
+      {
+        "nome": "Fatec - Desenvolvimento de Software",
+        "link": "www.google.com"
+      },
+      {
+        "nome": "RecodePro",
+        "link": "www.google.com"
+      }
+    ]
+  }
+]

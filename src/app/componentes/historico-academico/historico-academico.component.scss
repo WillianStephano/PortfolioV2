@@ -1,0 +1,17 @@
+section {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+
+  .container {
+    display: flex;
+
+    mat-card {
+      width: 50%;
+
+      mat-card-header {
+        justify-content: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<section>
+  <h2>Historico Acadêmico</h2>
+  <div class="container">
+    <mat-card>
+      <mat-card-header>
+        <h3>Cursos Concluidos</h3>
+      </mat-card-header>
+      <mat-card-content>
+        <ul>
+          <li *ngFor="let curso of colecaoDeCursos | async">
+            {{ curso.cursosConcluidos[0].nome }}
+          </li>
+        </ul>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <p></p>
+</section>
