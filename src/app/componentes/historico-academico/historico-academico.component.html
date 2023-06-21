@@ -2,17 +2,31 @@
   <h2>Historico Acadêmico</h2>
   <div class="container">
     <mat-card>
-      <mat-card-header>
-        <h3>Cursos Concluidos</h3>
-      </mat-card-header>
-      <mat-card-content>
+      <div>
         <ul>
           <li *ngFor="let curso of colecaoDeCursos | async">
-            {{ curso.cursosConcluidos[0].nome }}
+            <div *ngIf="curso.concluido">
+              <a href="{{ curso.link }}"
+                >{{ curso.nome }} <span>: Concluido</span></a
+              >
+            </div>
+            <div *ngIf="!curso.concluido">
+              <a href="{{ curso.link }}"
+                >{{ curso.nome }} <span>: Em andamento</span></a
+              >
+            </div>
           </li>
         </ul>
-      </mat-card-content>
+      </div>
     </mat-card>
   </div>
-  <p></p>
+
+  <button
+    routerLink="https://drive.google.com/drive/folders/1x0jwl9e-lVlpun40HKgy2WRpNz3fi1Cz"
+    target="_blank"
+    mat-raised-button
+    color="primary"
+  >
+    Acesse todos meus certificados
+  </button>
 </section>

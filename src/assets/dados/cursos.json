@@ -1,24 +1,37 @@
 [
   {
-    "cursosConcluidos": [
-      {
-        "nome": "Linkedin - HTML Básico",
-        "link": "www.google.com"
-      },
-      {
-        "nome": "Alura JavaScript",
-        "link": "www.google.com"
-      }
-    ],
-    "cursosEmAndamento": [
-      {
-        "nome": "Fatec - Desenvolvimento de Software",
-        "link": "www.google.com"
-      },
-      {
-        "nome": "RecodePro",
-        "link": "www.google.com"
-      }
-    ]
+    "nome": "Fatec - Desenvolvimento de Software",
+    "link": "https://www.google.com",
+    "concluido": false
+  },
+  {
+    "nome": "Linkedin - HTML Básico",
+    "link": "https://www.google.com",
+    "concluido": true
+  },
+  {
+    "nome": "Alura JavaScript",
+    "link": "https://www.google.com",
+    "concluido": true
+  },
+  {
+    "nome": "Alura - Modelagem de Banco de Dados",
+    "link": "https://www.google.com",
+    "concluido": true
+  },
+  {
+    "nome": "BootCamp - RecodePro",
+    "link": "https://www.google.com",
+    "concluido": true
+  },
+  {
+    "nome": "Alura JavaScript orientação a objeto",
+    "link": "https://www.google.com",
+    "concluido": true
+  },
+  {
+    "nome": "Alura Java",
+    "link": "https://www.google.com",
+    "concluido": true
   }
 ]

@@ -16,6 +16,7 @@ import { ContatosComponent } from './componentes/contatos/contatos.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProjetosComponent } from './componentes/projetos/projetos.component';
 import { HistoricoAcademicoComponent } from './componentes/historico-academico/historico-academico.component';
+import { RodapeComponent } from './componentes/rodape/rodape.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HistoricoAcademicoComponent } from './componentes/historico-academico/h
     ContatosComponent,
     ProjetosComponent,
     HistoricoAcademicoComponent,
+    RodapeComponent,
   ],
   imports: [
     BrowserModule,
