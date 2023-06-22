@@ -1,0 +1,27 @@
+body{
+  width: 100%;
+}
+.modal {
+  img {
+    width: 450px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+
+  section{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    a{
+      padding: 13px;
+      font-size: 12px;
+    }
+  }
+}
+

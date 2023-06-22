@@ -1,56 +1,92 @@
 [
   {
+    "id": "1",
     "nome": "BoraTrocar",
     "src": "../../../assets/previa-img/previa-boratrocar.png",
     "alt": "Teste",
-    "descricao": "Angular, TypeSctipt, Angular Material e API Spring Boot."
+    "descricao": "Descricao",
+    "tecnologias": "Angular, TypeSctipt, Angular Material e API Spring Boot.",
+    "repositorio": "https://github.com/WillianStephano/BoraTrocarV2",
+    "link": "https://bora-trocar.vercel.app/"
   },
   {
+    "id": "2",
     "nome": "Países",
     "src": "../../../assets/previa-img/previa-paises.PNG",
     "alt": "Teste",
-    "descricao": "HTML, CSS, JS e consumo de API."
+    "descricao": "Descricao",
+    "tecnologias": "HTML, CSS, JS e consumo de API.",
+    "repositorio": "https://github.com/WillianStephano/Paises",
+    "link": "https://willianstephano.github.io/Paises/"
   },
   {
+    "id": "3",
     "nome": "Adote um amigo",
     "src": "../../../assets/previa-img/previa-adote.png",
     "alt": "Teste",
-    "descricao": "HTML, CSS, JS."
+    "descricao": "Descricao",
+    "tecnologias": "HTML, CSS, JS.",
+    "repositorio": "https://github.com/WillianStephano/Adote-um-Amigo",
+    "link": "https://willianstephano.github.io/Adote-um-Amigo/"
   },
   {
+    "id": "4",
     "nome": "To do List",
     "src": "../../../assets/previa-img/previa-todolist.PNG",
     "alt": "Teste",
-    "descricao": "HTML, CSS, JS."
+    "descricao": "Descricao",
+    "tecnologias": "HTML, CSS, JS.",
+    "repositorio": "https://github.com/WillianStephano/To-Do-List",
+    "link": "https://willianstephano.github.io/To-Do-List/"
   },
   {
+    "id": "5",
     "nome": "Mapa do Brasil",
     "src": "../../../assets/previa-img/previa-mapadobr.PNG",
     "alt": "Teste",
-    "descricao": "HTML, CSS, JS e consumo de API."
+    "descricao": "Descricao",
+    "tecnologias": "HTML, CSS, JS e consumo de API.",
+    "repositorio": "https://github.com/WillianStephano/Mapa-do-Brasil",
+    "link": "https://willianstephano.github.io/Mapa-do-Brasil/"
   },
   {
+    "id": "6",
     "nome": "Blues Bar",
     "src": "../../../assets/previa-img/previa-bluesbar.png",
     "alt": "Teste",
-    "descricao": "HTML, CSS, JS."
+    "descricao": "Descricao",
+    "tecnologias": "HTML, CSS, JS.",
+    "repositorio": "https://github.com/WillianStephano/BluesBar",
+    "link": "https://willianstephano.github.io/BluesBar/"
   },
   {
+    "id": "7",
     "nome": "NetInter",
     "src": "../../../assets/previa-img/previa-netinter.png",
     "alt": "Teste",
-    "descricao": "HTML e CSS."
+    "descricao": "Descricao",
+    "tecnologias": "HTML e CSS.",
+    "repositorio": "https://github.com/WillianStephano/NetInter",
+    "link": "https://willianstephano.github.io/NetInter/"
   },
   {
+    "id": "8",
     "nome": "Seu IMC",
     "src": "../../../assets/previa-img/previa-seupeso.png",
     "alt": "Teste",
-    "descricao": "HTML, CSS, JS."
+    "descricao": "Descricao",
+    "tecnologias": "HTML, CSS, JS.",
+    "repositorio": "https://github.com/WillianStephano/Seu-Peso",
+    "link": "https://willianstephano.github.io/Seu-Peso/"
   },
   {
+    "id": "9",
     "nome": "RecodePro Clone",
     "src": "../../../assets/previa-img/previa-recode.png",
     "alt": "Teste",
-    "descricao": "HTML, CSS, JS."
+    "descricao": "Descricao",
+    "tecnologias": "HTML, CSS, JS.",
+    "repositorio": "https://github.com/WillianStephano/RecodePro-Clone",
+    "link": "https://willianstephano.github.io/RecodePro-Clone/"
   }
 ]

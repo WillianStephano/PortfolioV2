@@ -1,0 +1,29 @@
+<h1 mat-dialog-title>Projeto</h1>
+<div class="modal" mat-dialog-content *ngIf="projeto | async as projeto">
+  <!--
+    Essa gambiarra com ID existe para acessar os valores do objeto pois estou
+    simulando uma API na gambiarra. E para fazer a "requisição" por id foi um caos
+  -->
+  <h1>{{ projeto[id - 1].nome }}</h1>
+  <img [src]="projeto[id - 1].src" [alt]="projeto[id - 1].src" />
+  <p>Descrição:{{ projeto[id - 1].descricao }}</p>
+  <p>Tecnologias: {{ projeto[id - 1].tecnologias }}</p>
+
+  <section>
+    <a
+      mat-raised-button
+      href="{{ projeto[id - 1].repositorio }}"
+      target="_blank"
+    >
+      Repositorio
+    </a>
+    <a
+      mat-raised-button
+      color="primary"
+      href="{{ projeto[id - 1].link }}"
+      target="_blank"
+    >
+      Visite o projeto
+    </a>
+  </section>
+</div>

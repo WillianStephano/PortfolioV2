@@ -15,4 +15,20 @@ export class ProjetosService {
       .get<Projeto[]>(this.API + 'projetos.json')
       .pipe(tap((projeto) => console.log(projeto)));
   }
+
+  selecionaProjeto(id: number) {
+    const url = '../../assets/dados/projetos.json';
+    return this.http.get<Projeto[]>(url).pipe(
+      tap((projetos: Projeto[]) => {
+        const projeto = projetos.find((item) => item.id === id);
+        console.log(projeto);
+      })
+    );
+  }
+
+  /* Se fosse uma api de verdade isso bastaria
+    return this.http
+    .get<Projeto[]>(this.API + `projetos.json${id}`)
+    .pipe(tap((projeto) => console.log(projeto)));
+  */
 }

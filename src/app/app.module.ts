@@ -8,6 +8,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
+import { AppRoutingModule } from './app-routing.module';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 import { IntroComponent } from './componentes/intro/intro.component';
@@ -17,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProjetosComponent } from './componentes/projetos/projetos.component';
 import { HistoricoAcademicoComponent } from './componentes/historico-academico/historico-academico.component';
 import { RodapeComponent } from './componentes/rodape/rodape.component';
+import { DetalhesProjetoComponent } from './componentes/detalhes-projeto/detalhes-projeto.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +31,7 @@ import { RodapeComponent } from './componentes/rodape/rodape.component';
     ProjetosComponent,
     HistoricoAcademicoComponent,
     RodapeComponent,
+    DetalhesProjetoComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,6 +42,8 @@ import { RodapeComponent } from './componentes/rodape/rodape.component';
     MatCardModule,
     HttpClientModule,
     MatListModule,
+    AppRoutingModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
