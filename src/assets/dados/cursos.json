@@ -1,22 +1,22 @@
 [
   {
     "nome": "Fatec - Desenvolvimento de Software",
-    "link": "https://www.google.com",
+    "link": "http://fateccotia.edu.br/graduacao/desenvolvimento-de-software-multiplataforma/",
     "concluido": false
   },
   {
-    "nome": "Linkedin - HTML Básico",
-    "link": "https://www.google.com",
+    "nome": "Alura - Integração Contínua",
+    "link": "https://cursos.alura.com.br/certificate/61138f21-d2e5-450b-87e3-3e8e63c6cc95?lang=pt_BR",
     "concluido": true
   },
   {
-    "nome": "Alura JavaScript",
-    "link": "https://www.google.com",
+    "nome": "Alura - JavaScript",
+    "link": "https://cursos.alura.com.br/certificate/5afb82a1-f1aa-429b-9d70-90e94d9b3fc7?lang=pt_BR",
     "concluido": true
   },
   {
     "nome": "Alura - Modelagem de Banco de Dados",
-    "link": "https://www.google.com",
+    "link": "https://cursos.alura.com.br/certificate/df9bed50-0266-4d33-abd2-13dc9e2347e5?lang=pt_BR",
     "concluido": true
   },
   {
@@ -25,13 +25,33 @@
     "concluido": true
   },
   {
-    "nome": "Alura JavaScript orientação a objeto",
-    "link": "https://www.google.com",
+    "nome": "Alura - JavaScript orientação a objeto",
+    "link": "https://cursos.alura.com.br/certificate/31eda49f-68fe-4b5e-b2ee-18ec569b337e?lang=pt_BR",
     "concluido": true
   },
   {
-    "nome": "Alura Java",
-    "link": "https://www.google.com",
+    "nome": "Alura - Java Orientação a Objetos",
+    "link": "https://cursos.alura.com.br/certificate/ad64be78-77e2-4cbb-b9cf-9e8305f98b73?lang=pt_BR",
+    "concluido": true
+  },
+  {
+    "nome": "Alura - Java",
+    "link": "https://cursos.alura.com.br/certificate/57ab3b4b-9b3d-4347-93f6-6e8aeec327bd?lang=pt_BR",
+    "concluido": true
+  },
+  {
+    "nome": "HTML Avançado",
+    "link": "https://cursos.alura.com.br/certificate/9257c5c3-e37f-45f1-bcc5-64631f971a1d?lang=pt_BR",
+    "concluido": true
+  },
+  {
+    "nome": "Alura Java - Polimorfismo",
+    "link": "https://cursos.alura.com.br/certificate/9ec10547-e4a9-46e9-a856-02b52ab84eae?lang=pt_BR",
+    "concluido": true
+  },
+  {
+    "nome": "Linkedin - HTML Básico",
+    "link": "https://drive.google.com/file/d/1HJ1nNh3UNAEPdDjNRFHueYxJTpwXoY5O/view?usp=drive_link",
     "concluido": true
   }
 ]

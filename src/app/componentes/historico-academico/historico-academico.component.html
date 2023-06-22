@@ -6,12 +6,12 @@
         <ul>
           <li *ngFor="let curso of colecaoDeCursos | async">
             <div *ngIf="curso.concluido">
-              <a href="{{ curso.link }}"
+              <a href="{{ curso.link }}" target="_blank"
                 >{{ curso.nome }} <span>: Concluido</span></a
               >
             </div>
             <div *ngIf="!curso.concluido">
-              <a href="{{ curso.link }}"
+              <a href="{{ curso.link }}" target="_blank"
                 >{{ curso.nome }} <span>: Em andamento</span></a
               >
             </div>
@@ -21,12 +21,12 @@
     </mat-card>
   </div>
 
-  <button
-    routerLink="https://drive.google.com/drive/folders/1x0jwl9e-lVlpun40HKgy2WRpNz3fi1Cz"
+  <a
+    href="https://drive.google.com/drive/folders/1x0jwl9e-lVlpun40HKgy2WRpNz3fi1Cz"
     target="_blank"
     mat-raised-button
     color="primary"
   >
     Acesse todos meus certificados
-  </button>
+  </a>
 </section>
