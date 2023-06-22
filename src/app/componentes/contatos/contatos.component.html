@@ -1,9 +1,15 @@
 <section>
   <div class="container">
-    <mat-card *ngFor="let contato of colecaoContatos | async">
-      <img [src]="contato.src" [alt]="contato.alt" />
-      <p>{{ contato.nome }}</p>
-      <p>{{ contato.descricao }}</p>
-    </mat-card>
+    <a
+      *ngFor="let contato of colecaoContatos | async"
+      [href]="contato.link"
+      target="_blank"
+    >
+      <mat-card>
+        <img [src]="contato.src" [alt]="contato.alt" />
+        <p>{{ contato.nome }}</p>
+        <p>{{ contato.descricao }}</p>
+      </mat-card>
+    </a>
   </div>
 </section>

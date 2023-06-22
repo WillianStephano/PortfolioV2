@@ -3,24 +3,28 @@
     "nome": "Github",
     "src": "../../../assets/github.svg",
     "alt": "Teste",
-    "descricao": "Willian Stephano"
+    "descricao": "Willian Stephano",
+    "link": "https://github.com/WillianStephano"
   },
   {
     "nome": "Linkedin",
     "src": "../../../assets/linkedin.svg",
     "alt": "Teste",
-    "descricao": "Willian-Stephano"
+    "descricao": "Willian-Stephano",
+    "link": "https://www.linkedin.com/in/willian-stephano/"
   },
   {
     "nome": "Telefone",
     "src": "../../../assets/phone.svg",
     "alt": "Teste",
-    "descricao": "(11) 945797284"
+    "descricao": "(11) 945797284",
+    "link": "https://wa.me/5511945797284"
   },
   {
     "nome": "E-mail",
     "src": "../../../assets/mail.svg",
     "alt": "Teste",
-    "descricao": "will.stephano@gmail.com"
+    "descricao": "will.stephano@gmail.com",
+    "link": "will.stephano@gmail.com"
   }
 ]

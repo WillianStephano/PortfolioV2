@@ -3,4 +3,5 @@ export interface Contato {
   src: string;
   alt: string;
   descricao: string;
+  link: string
 }
