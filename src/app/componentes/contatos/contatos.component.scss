@@ -28,3 +28,24 @@
     width: 30px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    a {
+      width: fit-content;
+
+      mat-card {
+        padding: 0;
+        width: 166px;
+
+        p {
+          margin-bottom: 6px;
+        }
+      }
+    }
+  }
+}

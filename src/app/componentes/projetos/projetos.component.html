@@ -1,7 +1,7 @@
 <section id="projetos">
   <h2>Projetos</h2>
   <div class="container">
-    <mat-card
+    <mat-card class="card"
       *ngFor="let projeto of colecaoDeProjetos | async"
       (click)="abreProjeto(projeto.id)"
     >

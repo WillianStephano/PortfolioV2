@@ -13,7 +13,7 @@ section {
     width: 100%;
     gap: 30px;
 
-    mat-card {
+    .card {
       width: 23%;
       padding: 2%;
       box-sizing: border-box;
@@ -38,6 +38,17 @@ section {
       cursor: pointer;
       transition: 150ms;
       transform: scale(101%);
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section {
+    .container {
+      flex-direction: column;
+      .card {
+        width: 95%;
+      }
     }
   }
 }

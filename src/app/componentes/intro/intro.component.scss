@@ -28,3 +28,9 @@ mat-grid-list {
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  mat-grid-list {
+    display: none;
+  }
+}
