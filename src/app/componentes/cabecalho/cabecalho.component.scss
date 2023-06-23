@@ -12,13 +12,18 @@ mat-toolbar {
       justify-content: flex-end;
       gap: 5%;
       list-style: none;
-      font-size: 0.90rem;
+      font-size: 0.9rem;
       width: 60%;
 
       li {
         a {
           text-decoration: none;
           color: #000000;
+        }
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.05);
+          transition: 100ms;
         }
       }
     }
