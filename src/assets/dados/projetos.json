@@ -4,7 +4,7 @@
     "nome": "BoraTrocar",
     "src": "../../../assets/previa-img/previa-boratrocar.png",
     "alt": "Teste",
-    "descricao": "Descricao",
+    "descricao": "Projeto consiste em uma plataforma de troca de livros.",
     "tecnologias": "Angular, TypeSctipt, Angular Material e API Spring Boot.",
     "repositorio": "https://github.com/WillianStephano/BoraTrocarV2",
     "link": "https://bora-trocar.vercel.app/"
@@ -14,7 +14,7 @@
     "nome": "Países",
     "src": "../../../assets/previa-img/previa-paises.PNG",
     "alt": "Teste",
-    "descricao": "Descricao",
+    "descricao": "Projeto consiste em listar todos os países e trazer informações detalhadas acerca dos mesmos.",
     "tecnologias": "HTML, CSS, JS e consumo de API.",
     "repositorio": "https://github.com/WillianStephano/Paises",
     "link": "https://willianstephano.github.io/Paises/"
@@ -24,7 +24,7 @@
     "nome": "Adote um amigo",
     "src": "../../../assets/previa-img/previa-adote.png",
     "alt": "Teste",
-    "descricao": "Descricao",
+    "descricao": "Plataforma de adoção de animais que precisa mde abrigo.",
     "tecnologias": "HTML, CSS, JS.",
     "repositorio": "https://github.com/WillianStephano/Adote-um-Amigo",
     "link": "https://willianstephano.github.io/Adote-um-Amigo/"
@@ -34,7 +34,7 @@
     "nome": "To do List",
     "src": "../../../assets/previa-img/previa-todolist.PNG",
     "alt": "Teste",
-    "descricao": "Descricao",
+    "descricao": "Lista de tarefas cotidianas.",
     "tecnologias": "HTML, CSS, JS.",
     "repositorio": "https://github.com/WillianStephano/To-Do-List",
     "link": "https://willianstephano.github.io/To-Do-List/"
@@ -44,7 +44,7 @@
     "nome": "Mapa do Brasil",
     "src": "../../../assets/previa-img/previa-mapadobr.PNG",
     "alt": "Teste",
-    "descricao": "Descricao",
+    "descricao": "Lista dinamicamente todos os municipios do estado selecionado.",
     "tecnologias": "HTML, CSS, JS e consumo de API.",
     "repositorio": "https://github.com/WillianStephano/Mapa-do-Brasil",
     "link": "https://willianstephano.github.io/Mapa-do-Brasil/"
@@ -54,7 +54,7 @@
     "nome": "Blues Bar",
     "src": "../../../assets/previa-img/previa-bluesbar.png",
     "alt": "Teste",
-    "descricao": "Descricao",
+    "descricao": "Hotsite de um bar",
     "tecnologias": "HTML, CSS, JS.",
     "repositorio": "https://github.com/WillianStephano/BluesBar",
     "link": "https://willianstephano.github.io/BluesBar/"
@@ -64,7 +64,7 @@
     "nome": "NetInter",
     "src": "../../../assets/previa-img/previa-netinter.png",
     "alt": "Teste",
-    "descricao": "Descricao",
+    "descricao": "Hotsite de uma operadora de internet",
     "tecnologias": "HTML e CSS.",
     "repositorio": "https://github.com/WillianStephano/NetInter",
     "link": "https://willianstephano.github.io/NetInter/"
@@ -74,7 +74,7 @@
     "nome": "Seu IMC",
     "src": "../../../assets/previa-img/previa-seupeso.png",
     "alt": "Teste",
-    "descricao": "Descricao",
+    "descricao": "Projeto consiste em cadastrar seu peso e calcular o IMC",
     "tecnologias": "HTML, CSS, JS.",
     "repositorio": "https://github.com/WillianStephano/Seu-Peso",
     "link": "https://willianstephano.github.io/Seu-Peso/"
@@ -84,7 +84,7 @@
     "nome": "RecodePro Clone",
     "src": "../../../assets/previa-img/previa-recode.png",
     "alt": "Teste",
-    "descricao": "Descricao",
+    "descricao": "Clone de plataforma de estudo",
     "tecnologias": "HTML, CSS, JS.",
     "repositorio": "https://github.com/WillianStephano/RecodePro-Clone",
     "link": "https://willianstephano.github.io/RecodePro-Clone/"
