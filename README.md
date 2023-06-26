@@ -35,7 +35,7 @@ Para o desenvolvimento deste projeto utilizei as seguintes tecnologias:
 - Angular Material;
 - SCSS;
 - TypeScript;
-- Simulado consumo de API com arquivos Json;
+- Simulando consumo de API com arquivos Json;
 ---
 
 #### Autor
